@@ -15,7 +15,7 @@ return [
     */
 
     'title' => '',
-    'title_prefix' => 'Inventario | ',
+    'title_prefix' => 'Inventario ',
     'title_postfix' => '',
 
     /*
