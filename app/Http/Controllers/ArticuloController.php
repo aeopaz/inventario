@@ -45,7 +45,7 @@ class ArticuloController extends Controller
             'nombre_articulo'=>'required|max:45',
             'descripcion'=>'required|max:200',
             'precio_venta'=>'required|numeric|max:999999',
-            'file'=>'image|max:2048',
+            'file'=>'required|image|max:2048',
         ]);
 
         $articulo=new Articulo();
