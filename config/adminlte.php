@@ -299,7 +299,7 @@ return [
             'url'  => '/usuarios/index',
             'icon' => 'fas fa-fw fa-user',
         ],
-      /*  ['header' => 'account_settings'],
+        ['header' => 'account_settings'],
         [
             'text' => 'profile',
             'url'  => 'admin/settings',
@@ -310,7 +310,7 @@ return [
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
-        [
+       /* [
             'text'    => 'multilevel',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
