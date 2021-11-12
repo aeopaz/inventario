@@ -17,7 +17,7 @@
                 <a href="{{route('register')}}" class="btn btn-primary">Nuevo usuario</a>
             </div>
             <br>
-            <table id="tabla_usuarios" class="table table-hover table-striped">
+            <table id="tabla_usuarios" class="table table-hover table-responsive">
                 <thead>
                     <tr>
                         <th>Nombre</th>

@@ -13,7 +13,7 @@
             <div class="row mb-4">
                 <a href="{{route('proveedor.create')}}" class="ver-modal btn btn-primary">Nuevo proveedor</a>
             </div>
-            <table id="tabla_proveedores" class="table table-hover">
+            <table id="tabla_proveedores" class="table table-hover table-responsive">
                 <thead>
                     <tr>
                         <th>Nombre</th>
