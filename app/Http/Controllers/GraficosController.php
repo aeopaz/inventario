@@ -30,6 +30,8 @@ class GraficosController extends Controller
         $puntos_entradas_salidas[0] = ['name' => 'Entradas', 'y' => intval($cantidad_entradas)]; //intval para convertir cadena a un número
         $puntos_entradas_salidas[1] = ['name' => 'Salidas', 'y' => intval($cantidad_salidas)];
 
+        return $puntos_articulos;
+
         //Almacenar en un array para hacer un comparativo entre entadas, salidas y stock
         $inventario[0] = ['name' => 'Entradas', 'y' => intval($cantidad_entradas)]; //intval para convertir cadena a un número
         $inventario[1] = ['name' => 'Salidas', 'y' => intval($cantidad_salidas)];
@@ -45,6 +47,7 @@ class GraficosController extends Controller
         $entradas_salidasJS = json_encode($puntos_entradas_salidas);
         $informe_ventasJS=json_encode($informe_ventas);
         $inventarioJS=json_encode($inventario);
+
 
 
 
